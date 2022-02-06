@@ -3,7 +3,12 @@
     margin: 0px;
 }
 
-
+.header {
+    padding: 10px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
 .header-logo-txt {
     font-size: 24px;
@@ -13,23 +18,37 @@
     color: #e5e7eb;
     font-size: 10px;
     display: flex;
+}
+
+.hero {
+    padding-left: 60px;
+    padding-right: 60px;
+    height: 350px;
+    display: flex;
     justify-content: space-between;
-    padding-right: 20px;
+    align-items: center;
+}
+
+.left {
+    padding-right: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 3px;
+}
+
+.top-button {
+    background-color: #3882f6;
+    padding: 5px 20px;
+    margin: 5px 0px;
+    border-radius: 5px;
+    color: #e5e7eb;
 }
 
 .image {
     height: 250px;
+    width: 333px;
 }
-
-.left {
-    display: flex;
-    flex-direction: column;
-}
-
-
-
-
-
 
 .header,
 .hero,
@@ -37,10 +56,13 @@
     background-color: #1f2937;
 }
 
-
 .header-logo-txt,
 .hero-txt-main {
     color: #f9faf8;
+}
+
+.hero-secondary-txt {
+    color: #e5e7eb;
 }
 
 .hero-txt-main {
@@ -53,22 +75,78 @@
     background-color: #3882f6;
 }
 
-.information {
+.info-section {
     color: #1f2937;
 }
 
+#info-title {
+    font-size: 24px;
+    text-align: center;
+    padding-top: 30px;
+    font-weight: bold;
+}
+
+.blocks {
+    padding: 30px 100px;
+    display: flex;
+    flex: 1 1 100px;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+img {
+    display: flex;
+    height: 50%;
+    width: auto;
+}
+.block {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+
+}
 .quote-section {
+    height: 350px;
     background-color: #e5e7eb;
     color: #1f2937;
+    padding-left: 250px;
+    padding-right: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
 }
 
-.call-box {
-    padding: 60px;
+#QuoteSayer {
+    align-self: flex-end;
+}
+
+.call-to-action {
+    border-radius: 5px;
+    color: #e5e7eb;
+    margin: 40px 60px;
+    padding: 30px 60px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 
+#call-btn {
+    border-width: 2px;
+    border-color: #e5e7eb;
+    border-style: solid;
+    border-radius: 5px;
+    padding: 5px 25px;
+    background-color: #3882f6;
+}
+
+#call-para {
+    display: flex;
+    flex-direction: column;
+}
 .footer {
     padding: 20px;
     display: flex;
